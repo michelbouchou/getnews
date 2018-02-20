@@ -1,0 +1,22 @@
+{
+  "name": "project_getnews",
+  "version": "1.0.0",
+  "description": "Simple command to get news titles with node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michelbouchou/getnews.git"
+  },
+  "keywords": [
+    "News"
+  ],
+  "author": "Michel Bouchou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michelbouchou/getnews/issues"
+  },
+  "homepage": "https://github.com/michelbouchou/getnews#readme"
+}
