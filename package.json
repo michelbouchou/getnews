@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "getnews": "./index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/michelbouchou/getnews.git"
@@ -18,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/michelbouchou/getnews/issues"
   },
-  "homepage": "https://github.com/michelbouchou/getnews#readme"
+  "homepage": "https://github.com/michelbouchou/getnews#readme",
+  "dependencies": {
+    "commander": "^2.14.1",
+    "everyauth": "^0.4.9",
+    "fbgraph": "^1.4.1"
+  }
 }
